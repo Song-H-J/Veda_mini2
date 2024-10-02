@@ -1,3 +1,4 @@
+// 1차 때의 전형적인 manager 클래스
 #ifndef CLIENTMANAGERFORM_H
 #define CLIENTMANAGERFORM_H
 
