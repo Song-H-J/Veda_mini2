@@ -13,6 +13,7 @@ public:
     Widget(QWidget *parent = 0);
     ~Widget();
 
+// 두 개의 커스텀 슬롯 등록
 private slots:
     void echoData( );
     void sendData(  );
