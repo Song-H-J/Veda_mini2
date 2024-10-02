@@ -1,3 +1,4 @@
+// 1차 때 하던 전형적인 item - manager 관계의 클랙스
 #ifndef CLIENTITEM_H
 #define CLIENTITEM_H
 
@@ -16,6 +17,7 @@ public:
     explicit ClientItem(int id = 0, string = "", string = "", string = "");
     ~ClientItem();
 
+    // getter, setter
     string getName() const;
     void setName(string&);
     string getPhoneNumber() const;
