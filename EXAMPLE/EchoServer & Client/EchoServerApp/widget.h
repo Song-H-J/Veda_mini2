@@ -11,6 +11,7 @@ class Widget : public QWidget
 public:
     Widget(QWidget *parent = 0);
 
+// 두 개의 커스텀 슬롯
 private slots:
     void clientConnect( );                       /* 에코 서버 */
     void echoData( );
